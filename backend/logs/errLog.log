@@ -1,0 +1,13 @@
+20241023	15:20:20	e733755e-11c5-437e-b5fb-98453ff845e1	TypeError: Cannot read properties of null (reading 'password')	POST	/auth	http://localhost:3000
+20241024	15:19:48	19a760f7-db14-4618-9226-91809a17671d	CastError: Cast to ObjectId failed for value "{ id: '671a1d49a58083cd9b283f53' }" (type Object) at path "_id" for model "Student"	DELETE	/students	http://localhost:3000
+20241024	15:20:30	c213f224-44a3-4f30-aa7a-d704ab9ede7a	CastError: Cast to ObjectId failed for value "{ id: '671a1d49a58083cd9b283f53' }" (type Object) at path "_id" for model "Student"	DELETE	/students	http://localhost:3000
+20241024	15:22:01	d9bab727-08c8-4252-a6bd-04c229a7c406	CastError: Cast to ObjectId failed for value "{ id: '671a3be46e7d1b4dfce01bac' }" (type Object) at path "_id" for model "Student"	DELETE	/students	http://localhost:3000
+20241024	15:26:44	4d99eb21-3c58-4d0c-8e7b-4cd171585ef1	CastError: Cast to ObjectId failed for value "{ id: '671a3be46e7d1b4dfce01bac' }" (type Object) at path "_id" for model "Student"	DELETE	/students	http://localhost:3000
+20241024	18:48:38	47f453e9-181d-4be0-b9b9-6440fc63744a	TypeError: Cannot read properties of null (reading 'password')	POST	/auth	http://localhost:3000
+20241024	18:48:51	9a5f61b6-c450-47e8-9274-c7790723c0d1	TypeError: Cannot read properties of null (reading 'password')	POST	/auth	http://localhost:3000
+20241024	19:03:41	199446a8-f77b-4870-a7db-012f2d91d793	TypeError: Cannot read properties of null (reading 'password')	POST	/auth	http://localhost:3000
+20241024	19:40:02	d49fcde5-1341-4eb3-bee9-80292465fdea	TypeError: Cannot read properties of null (reading 'password')	POST	/auth	http://localhost:3000
+20241024	19:40:26	9a58defc-fc5d-4f25-bab8-1507035f7354	TypeError: Cannot read properties of null (reading 'password')	POST	/auth	http://localhost:3000
+20241024	19:41:02	678494a5-4ed0-4248-8e0b-7cbfbdc8becf	TypeError: Cannot read properties of null (reading 'password')	POST	/auth	http://localhost:3000
+20241024	19:41:57	338f5e3a-cd0b-426f-92b9-3be30c19ef07	TypeError: Cannot read properties of null (reading 'password')	POST	/auth	http://localhost:3000
+20241024	19:42:10	9c10b7c9-fb2e-4ba1-b320-05b509b22e37	TypeError: Cannot read properties of null (reading 'password')	POST	/auth	http://localhost:3000
