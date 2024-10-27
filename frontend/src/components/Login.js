@@ -5,7 +5,7 @@ import { setCredentials } from '../features/auth/authSlice';
 import { useLoginMutation } from '../features/auth/authApiSlice';
 import usePersist from '../hooks/usePersist';
 import { MdLock } from 'react-icons/md'; // React icon for lock
-import './animation.css'
+// import './animation.css'
 
 import sound1 from './2022.mp3'
 
