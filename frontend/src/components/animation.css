@@ -1,0 +1,107 @@
+/* إعدادات الشاشة لتوسيط الدب في منتصف الصفحة */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  /* إنشاء شكل الدب */
+  .bear {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #8B4513; /* لون جسم الدب */
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* آذان الدب */
+  .ears {
+    position: absolute;
+    top: -40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .ear {
+    width: 50px;
+    height: 50px;
+    background-color: #8B4513;
+    border-radius: 50%;
+  }
+  .ear.left {
+    transform: translateX(-50%);
+  }
+  .ear.right {
+    transform: translateX(50%);
+  }
+  
+  /* وجه الدب */
+  .face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* عيون الدب */
+  .eyes {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .eye {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+  }
+  .eye.left {
+    margin-left: 40px;
+  }
+  .eye.right {
+    margin-right: 40px;
+  }
+  
+  /* أيدي الدب */
+  .hands {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .hand {
+    width: 50px;
+    height: 50px;
+    background-color: #8B4513;
+    border-radius: 50%;
+    position: relative;
+    animation: hideEyes 2s infinite;
+  }
+  .hand.left {
+    margin-left: -30px;
+    animation-delay: 0.1s;
+  }
+  .hand.right {
+    margin-right: -30px;
+    animation-delay: 0.1s;
+  }
+  
+  /* حركة اليدين لتغطية العيون */
+  @keyframes hideEyes {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-40px); /* تحريك اليدين لتغطية العينين */
+    }
+  }
+  

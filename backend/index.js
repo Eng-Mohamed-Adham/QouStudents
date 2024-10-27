@@ -20,8 +20,7 @@ connectDB()
 
 app.use(logger)
 
-app.use(cors(['https://alkbeerawy.onrender.com',
-    'https://alkbeer-awwy.onrender.com']))
+app.use(cors(corsOptions))
 
 
 var bodyParser = require('body-parser');

@@ -5,6 +5,7 @@ import { setCredentials } from '../features/auth/authSlice';
 import { useLoginMutation } from '../features/auth/authApiSlice';
 import usePersist from '../hooks/usePersist';
 import { MdLock } from 'react-icons/md'; // React icon for lock
+import './animation.css'
 
 import sound1 from './2022.mp3'
 
@@ -83,7 +84,23 @@ const Login = () => {
 
     const errClass = errMsg ? 'errmsg' : 'offscreen';
 
-    if (isLoading) return <p>Loading...</p>;
+    if (isLoading) return<div className="bear">
+    <div className="ears">
+      <div className="ear left"></div>
+      <div className="ear right"></div>
+    </div>
+    <div className="face">
+      <div className="eyes">
+        <div className="eye left"></div>
+        <div className="eye right"></div>
+      </div>
+      <div className="hands">
+        <div className="hand left"></div>
+        <div className="hand right"></div>
+      </div>
+    </div>
+  </div>
+  ;
 
     return (
         <div className="flex items-center justify-center h-screen bg-gray-100">
