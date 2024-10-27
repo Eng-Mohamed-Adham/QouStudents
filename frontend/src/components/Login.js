@@ -84,22 +84,7 @@ const Login = () => {
 
     const errClass = errMsg ? 'errmsg' : 'offscreen';
 
-    if (isLoading) return<div className="bear">
-    <div className="ears">
-      <div className="ear left"></div>
-      <div className="ear right"></div>
-    </div>
-    <div className="face">
-      <div className="eyes">
-        <div className="eye left"></div>
-        <div className="eye right"></div>
-      </div>
-      <div className="hands">
-        <div className="hand left"></div>
-        <div className="hand right"></div>
-      </div>
-    </div>
-  </div>
+    if (isLoading) return<p>Loading...</p>
   ;
 
     return (
