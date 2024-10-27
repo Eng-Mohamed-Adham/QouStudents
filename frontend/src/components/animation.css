@@ -1,5 +1,5 @@
 /* إعدادات الشاشة لتوسيط الدب في منتصف الصفحة */
-body, html {
+/* body, html {
     height: 100%;
     margin: 0;
     display: flex;
@@ -7,7 +7,7 @@ body, html {
     align-items: center;
     background-color: #f0f0f0;
   }
-  
+   */
   /* إنشاء شكل الدب */
   .bear {
     position: relative;
